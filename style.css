@@ -1,0 +1,333 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+.pt1{
+    /* pt1 is used to give the distance between header and paragraph */
+    padding-top:0.8rem;
+}
+.pt2{
+    margin:1rem 1rem;
+}
+/* pt4 class has been made as common class fpr the sepearation of different header classes*/
+.pt4{
+    padding-top:2rem;
+    padding-bottom:1rem;
+}
+
+
+header{
+ 
+    font-family: 'Roboto', sans-serif;
+    height:67rem;
+}
+nav{
+ 
+    width:100%;
+    position:fixed;
+    background-color:#A42455;
+    display:flex;
+    font-family: 'Roboto', sans-serif;
+    z-index: 1;
+    /* z-index has been used to stick the index(nav) bar in the top of the websites. */
+}
+.logo{
+    /* display:flex; */
+    align-items:center;
+}
+.logo img{
+    width: 5rem;
+    padding: 0 1rem;
+    padding-top:1rem;
+}
+nav ul{
+    
+    display:flex;
+  padding-left: 7rem;
+  padding-top: 1rem;
+  
+  
+}
+nav ul li{
+    
+    list-style-type:none;
+    padding: 2rem 3rem;
+}
+nav ul li a {
+   
+    color:white;
+    
+    text-decoration:none;
+    /* justify-content:center;
+    display:flex;
+    text-align:center; */
+}
+.donate{
+    background-color:white;
+    color:black;
+    padding: 0.6rem 4rem;
+border-radius: 1rem;
+    
+
+}
+nav ul li a:hover{
+    font-weight:bold;
+}
+.background{
+    width:100%;
+ 
+
+   
+    
+    background-image: url('hello.jpg');
+
+    
+    height: 100%;
+
+background-repeat: no-repeat;
+
+}
+.slogan{
+        position: absolute;
+        top: 15rem;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+}
+h1{
+    color:white;
+    text-align: center;
+ font-size:1.55rem;
+ letter-spacing:0.2rem;
+ 
+   
+}
+h2{
+    color:white;
+    text-align: center;
+    font-size:1.7rem;
+    letter-spacing: 0.2;
+}
+h3{
+    color:white;
+    text-align: center;
+    font-size:2.25rem;
+    margin-bottom: 1rem;
+
+}
+.header_button{
+    text-decoration: none;
+   font-size:1.2rem;
+    background-color:white;
+    color:#343434;
+    padding: 0.5rem 2.5rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+  
+  
+}
+.header_button:hover{
+    font-weight:bold;
+}
+.container{
+   color:black;
+}
+h4{
+ text-align: center;
+  font-size:1.3rem;
+
+ 
+}
+.section-title{
+    border-right: 6px solid #A42455; 
+    padding-right: 0.5rem;
+}
+
+
+   .p1{
+    text-align:justify;
+  
+}
+
+h5{
+    text-align:right;
+     font-size:1.3rem;
+    
+    
+   }
+   .header5_below{
+    display: flex;
+  }
+
+
+   /* we can change the name of this paragraph div later. */
+  
+   .p2{
+   
+       text-align: Start;
+       font-weight: bold;
+       /* justify-content: flex-start; */
+   }
+   .p3{
+       text-align: start;
+       
+   }
+   .img-responsive{
+   
+        width:17rem; 
+        height:14rem;   
+    margin-left:1rem;
+                                                                                                                                    
+    }
+    h6{
+        text-align:left;
+         font-size:1.3rem;
+        
+        
+       }
+       .header6_below{
+        display: flex;
+      }
+    
+    
+       /* we can change the name of this paragraph div later. */
+       .img-responsive1{
+       
+        width:17rem; 
+        height:14rem;   
+    margin-right:1rem;
+                                                                                                                                    
+    }
+
+       .p4{
+       
+           text-align: Start;
+           font-weight: bold;
+           /* justify-content: flex-start; */
+       }
+       .p5{
+           text-align: start;
+           
+       }
+       
+ .founder{
+     display: flex;
+     justify-content:center;
+     flex-direction: row;
+     flex-wrap: wrap;
+     
+     
+    
+ }
+ .founderclass{
+      height:25rem;
+      width:19rem;
+      background-color:#f3f0f04b;
+      border: 0.2rem solid rgba(131, 127, 127, 0.253);
+      border-radius:3rem;
+      margin-top: 3rem;
+      margin-left: 2.3rem;
+
+}
+ .founder_image{
+     width:12rem;
+     height:12rem;
+     display: flex;
+     justify-content: center;
+     margin: 0.5rem auto;
+     border-radius:6rem;
+
+ }
+ .Name{
+     text-align: center;
+     font-size:1.5rem;
+     font-weight:bold;
+     margin-top: 0.25rem;
+ }
+ .position{
+     text-align: center;
+     font-size:01rem;
+     text-decoration:0.1rem #A42455 underline;
+     margin-top: 0.25rem;
+    font-weight:bold;
+ }
+ .font_size1{
+     text-align: center;
+     margin-top: 0.25rem;
+ }
+ .social_media{
+     display: flex;
+     justify-content: center;
+     margin-top: 0.75rem;
+ }
+ .social_size{
+   margin-left:1rem;
+  
+ }
+ .image_social{
+     background-color: #A42455;
+     height: 2rem;
+     width:2rem;
+    border-radius:1rem;
+    margin-bottom: auto;
+ }
+ .image_social{
+    background-color: #A42455;
+    height: 2rem;
+    width:2rem;
+   border-radius:1rem;
+   margin-bottom: auto;
+}
+.linked_social{
+    background-color: #A42455;
+    height: 2rem;
+    width:2.3rem;
+   border-radius:0.5rem;
+   margin-bottom: auto;
+   
+}
+.footer{
+    background-image: url('name.jpeg');
+    width:100%;
+    height:100%;
+    margin-top:3rem;
+
+}
+.footer_slogan{
+font-size:2rem;
+text-align: center;
+font-weight: bold;
+margin-top: 0.25rem;
+}
+.footer_slogan1{
+    font-size:1.4rem;
+    text-align: center;
+    font-weight: bold;
+    color:#A42455;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    }
+    .apply{
+        display: flex;
+        justify-content: center;
+    }
+    .apply1{
+      
+        font-size:1.2rem;
+         background-color:white;
+         color:#A42455;
+         padding: 0.5rem 2.5rem;
+         border-radius: 2rem;
+         margin-top: 1rem;
+         margin-left:1rem;
+         margin-bottom: 0.15rem;
+         text-decoration: none;
+    }
+.copyright{
+text-align: center;
+padding-top: 0.5 rem;
+
+
+}
