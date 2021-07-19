@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+.section{
+    border-right: 0.4rem solid #A42455; 
+    padding-right: 0.5rem;
+}
+.h1{
+    text-align: center;
+    font-size:1.1rem;
+    margin-bottom: 0rem;
+     margin-top: 1rem;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    height:21rem;
+    width:18rem;
+    background-color:#c0b8b84b;
+    border: 0.2rem solid rgba(248, 245, 245, 0.253);
+    border-radius:0rem;
+    margin-top: 3rem;
+    margin-left: 2.3rem;
+
+}
+.image{
+    box-sizing: content-box;
+width: 100%;
+}
+
+.image1{
+    
+    height: 11rem;
+    width: 18rem;
+   
+    border-radius: 0.2rem;
+   
+
+}
+.head{
+    text-align: center;
+    font-size:1.2rem;
+    font-weight: bold;
+    margin-top: 0.3rem;
+}
+.text{
+    text-align: center;
+    margin-top: 0.1rem;
+    margin-left: 0.15rem;
+    margin-right: 0.15rem;
+}
+p{
+    text-align: center;
+    margin-top: 3rem;
+
+}
+a{
+  font-size: 1.2rem;
+    text-decoration: none;
+    background-color:#A42455;
+    color:black;
+    padding: 0.6rem 2rem;
+border-radius: 1rem;
+}
+a:hover{
+    font-weight:bold;
+}
+.copyright{
+    text-align: center;
+    padding-top: 0.5 rem;
+    margin-bottom: 1rem;
+    
+    
+    }
+  
